@@ -1,6 +1,6 @@
 # npmtest-watch.io
 
-#### basic test coverage for  watch.io (v1.0.7)  [![npm package](https://img.shields.io/npm/v/npmtest-watch.io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-watch.io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-watch.io.svg)](https://travis-ci.org/npmtest/node-npmtest-watch.io)
+#### basic test coverage for  [watch.io (v1.0.7)](https://github.com/DJ-NotYet/watch.io#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-watch.io.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-watch.io) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-watch.io.svg)](https://travis-ci.org/npmtest/node-npmtest-watch.io)
 
 #### An event wrapper for fs.watch(), with support for recursive directories
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-watch.io/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-watch.io/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-watch.io/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-watch.io/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-watch.io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-watch.io/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-watch.io/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-watch.io/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-watch.io/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-watch.io/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-watch.io/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-watch.io/build/coverage.html/index.html)
 
@@ -35,8 +35,28 @@
 ```json
 
 {
-    "name": "watch.io",
+    "author": {
+        "name": "DJ-NotYet"
+    },
+    "bugs": {
+        "url": "https://github.com/DJ-NotYet/watch.io/issues/new"
+    },
+    "contributors": [],
+    "dependencies": {},
     "description": "An event wrapper for fs.watch(), with support for recursive directories",
+    "devDependencies": {
+        "expect.js": "*",
+        "fs-extra": "*",
+        "jshint": "*",
+        "mocha": "*"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "43833b579da092a46158a8ee1aefa82897f3b578",
+        "tarball": "https://registry.npmjs.org/watch.io/-/watch.io-1.0.7.tgz"
+    },
+    "gitHead": "4cdab6b28ac96ab5bc927bc43740c63189b2e071",
+    "homepage": "https://github.com/DJ-NotYet/watch.io#readme",
     "keywords": [
         "watch.io",
         "fs",
@@ -44,28 +64,24 @@
         "recursive",
         "notify"
     ],
-    "version": "1.0.7",
-    "author": "DJ-NotYet <dj.notyet@gmail.com>",
-    "contributors": [],
     "license": "MIT",
     "main": "index.js",
-    "devDependencies": {
-        "mocha": "*",
-        "expect.js": "*",
-        "jshint": "*",
-        "fs-extra": "*"
-    },
-    "scripts": {
-        "test": "make test"
-    },
+    "maintainers": [
+        {
+            "name": "dj-notyet"
+        }
+    ],
+    "name": "watch.io",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/DJ-NotYet/watch.io.git"
     },
-    "bugs": {
-        "url": "https://github.com/DJ-NotYet/watch.io/issues/new"
+    "scripts": {
+        "test": "make test"
     },
-    "homepage": ""
+    "version": "1.0.7",
+    "bin": {}
 }
 ```
 
